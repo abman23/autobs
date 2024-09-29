@@ -1,0 +1,55 @@
+2024-06-24 22:59:24,772 INFO 
+=============Test for PPO AFTER=============
+2024-06-24 22:59:26,433 INFO one map total 1.0502s, env reset 0.0009s, calc opt action 1.0307s, inference 0.0132s
+2024-06-24 22:59:26,433 INFO Stats for test map 0 with index 0
+percentage of coverage: 82.41549563235853
+capacity: 0.6609970934901271
+reward: 0.687518694317513
+optimal reward: 0.6880550988153277
+ratio: 0.9992204047339548, num_roi: 52660
+
+
+2024-06-24 22:59:58,784 INFO one map total 1.6852s, env reset 0.0012s, calc opt action 1.6669s, inference 0.0111s
+2024-06-24 22:59:58,784 INFO Stats for test map 10 with index 110
+percentage of coverage: 69.49361514751212
+capacity: 0.6441670538609062
+reward: 0.6883719923657409
+optimal reward: 0.6897816685859737
+ratio: 0.9979563443268613, num_roi: 45420
+
+
+2024-06-24 23:00:38,599 INFO one map total 1.2792s, env reset 0.0018s, calc opt action 1.2495s, inference 0.0226s
+2024-06-24 23:00:38,600 INFO Stats for test map 20 with index 220
+percentage of coverage: 76.30033303057826
+capacity: 0.6544048297043128
+reward: 0.6869616468772833
+optimal reward: 0.6874125735602091
+ratio: 0.9993440232252512, num_roi: 49545
+
+
+2024-06-24 23:01:17,714 INFO one map total 1.9447s, env reset 0.0014s, calc opt action 1.9248s, inference 0.0132s
+2024-06-24 23:01:17,715 INFO Stats for test map 30 with index 330
+percentage of coverage: 49.097213918450315
+capacity: 0.6268260267153463
+reward: 0.6829180118179724
+optimal reward: 0.6915901980242672
+ratio: 0.9874605131318092, num_roi: 41815
+
+
+2024-06-24 23:01:58,755 INFO one map total 1.5270s, env reset 0.0012s, calc opt action 1.5084s, inference 0.0127s
+2024-06-24 23:01:58,756 INFO Stats for test map 40 with index 440
+percentage of coverage: 68.98553784439987
+capacity: 0.6447870419242623
+reward: 0.6834786394150107
+optimal reward: 0.6853267811973757
+ratio: 0.9973032692825226, num_roi: 47365
+
+
+2024-06-24 23:02:38,056 INFO Stats for test maps
+average percentage of coverage: 57.393500306490594
+average capacity: 0.6371889596742399
+average reward: 0.6841316077770102
+optimal reward: 0.6891423244048431
+ratio: 0.9927290539988814, num_roi: 42479
+
+

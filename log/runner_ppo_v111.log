@@ -1,0 +1,61 @@
+
+2024-06-07 19:36:48,017 INFO ===========PPO train and eval started at 0607_1936===========
+2024-06-07 22:34:59,671 DEBUG {'env': {'n_bs': 1, 'map_size': 256, 'action_space_size': 32, 'n_maps': 1100, 'n_steps_truncate': 5, 'dataset_dir': '/home1/balamwar/ondemand/data/sys/myjobs/projects/default/BS_Deployment/resource/usc_old_sparse', 'no_masking': False, 'non_building_pixel': 1.0, 'reward_type': 'coverage'}, 'eval': {'evaluation_config': {'env_config': {'evaluation': True, 'n_maps': 110, 'n_steps_truncate': 5}, 'exploration': {'explore': False}}, 'num_maps_per_eval': 100, 'evaluation_interval': 10, 'evaluation_num_workers': 0}, 'explore': {'exploration_config': {'type': 'StochasticSampling'}, 'explore': True}, 'report': {'min_sample_timesteps_per_iteration': 2000}, 'resource': {'num_cpus_per_worker': 4, 'num_gpus': 1, 'num_gpus_per_worker': 0}, 'rollout': {'num_envs_per_worker': 1, 'num_rollout_workers': 4, 'batch_mode': 'truncate_episodes'}, 'stop': {'training_iteration': 200}, 'train': {'lr': 1e-05, 'gamma': 0.1, 'grad_clip': 40.0, 'train_batch_size': 2000, 'sgd_minibatch_size': 256, 'num_sgd_iter': 20, 'model': {'fcnet_hiddens': [128, 128, 128, 128], 'fcnet_activation': 'relu'}}, 'agent': {'data_saving_interval': 50}}
+2024-06-07 22:34:59,671 INFO =============TRAINING ENDED=============
+2024-06-07 22:35:01,512 INFO 
+=============Test for PPO AFTER=============
+2024-06-07 22:35:03,757 INFO one map total 1.5122s, env reset 0.0009s, calc opt action 1.4943s, inference 0.0123s
+2024-06-07 22:35:03,758 INFO Stats for test map 0 with index 1101
+percentage of coverage: 36.669661700482685
+capacity: 0.6174252187971321
+reward: 0.2936305006210967
+optimal reward: 0.33693472773242233
+ratio: 0.8714759164103861, num_roi: 47857
+
+
+2024-06-07 22:35:37,991 INFO one map total 1.6029s, env reset 0.0009s, calc opt action 1.5862s, inference 0.0112s
+2024-06-07 22:35:37,991 INFO Stats for test map 10 with index 1111
+percentage of coverage: 29.990506602226635
+capacity: 0.6104536741760419
+reward: 0.2860877982328203
+optimal reward: 0.3416016210276751
+ratio: 0.8374895803250381, num_roi: 46348
+
+
+2024-06-07 22:36:15,680 INFO one map total 1.8709s, env reset 0.0017s, calc opt action 1.8541s, inference 0.0104s
+2024-06-07 22:36:15,681 INFO Stats for test map 20 with index 1121
+percentage of coverage: 51.49294617175729
+capacity: 0.6312613853054472
+reward: 0.34463497350824146
+optimal reward: 0.3455420276306517
+ratio: 0.9973749817681228, num_roi: 43806
+
+
+2024-06-07 22:36:56,891 INFO one map total 2.0950s, env reset 0.0014s, calc opt action 2.0772s, inference 0.0118s
+2024-06-07 22:36:56,891 INFO Stats for test map 30 with index 1131
+percentage of coverage: 46.53849752081579
+capacity: 0.6247541667496743
+reward: 0.337861122441947
+optimal reward: 0.34765786901504636
+ratio: 0.9718207253560673, num_roi: 42756
+
+
+2024-06-07 22:37:38,946 INFO one map total 2.1039s, env reset 0.0014s, calc opt action 2.0790s, inference 0.0186s
+2024-06-07 22:37:38,947 INFO Stats for test map 40 with index 1141
+percentage of coverage: 49.835636017151025
+capacity: 0.628848212419265
+reward: 0.3506094626720644
+optimal reward: 0.35325261754921167
+ratio: 0.9925176637175829, num_roi: 41980
+
+
+2024-06-07 22:38:17,739 INFO Stats for test maps
+average percentage of coverage: 45.03601876458594
+average capacity: 0.6244595846734793
+average reward: 0.3294330889270253
+optimal reward: 0.3461047538434231
+ratio: 0.9518305809693095, num_roi: 43504
+
+
+
+
