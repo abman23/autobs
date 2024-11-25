@@ -46,6 +46,4 @@ After running the inference script, the output coverage map will be saved in the
 
 
 ## Contributors
-We would like to acknowledge the contributions of the following individuals to the framework design and simulations:
-	•	Arjun Balamwar
-	•	Yanqing Lu
+We would like to acknowledge the contributions of the following individuals to the framework design and simulations: (1)	Arjun Balamwar; (2)	Yanqing Lu
