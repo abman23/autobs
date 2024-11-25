@@ -45,3 +45,7 @@ python inference.py \
 After running the inference script, the output coverage map will be saved in the `visulaize/sionna_output/` directory.
 
 
+## Contributors
+We would like to acknowledge the contributions of the following individuals to the framework design and simulations:
+	•	Arjun Balamwar
+	•	Yanqing Lu
