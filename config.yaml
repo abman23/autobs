@@ -1,0 +1,13 @@
+env:
+  map_size: 256
+  action_space_size: 32
+  no_masking: false
+  non_building_pixel: 1.0  # 1-white, 0-black
+explore:
+  exploration_config:
+    type: StochasticSampling
+  explore: true
+train:
+  model:
+    fcnet_hiddens: [128, 128, 128, 128]
+    fcnet_activation: relu

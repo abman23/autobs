@@ -50,7 +50,7 @@ class AsyncActionCallbacks(DefaultCallbacks):
         accumulated_reward = episode.last_info_for()["accumulated_reward"]
         # print(f"accumulated_reward: {accumulated_reward}")
         n_bs, steps = episode.last_info_for()["n_bs"], episode.last_info_for()["steps"]
-        n_rounds = np.ceil(steps / n_bs)
+        n_rounds = np.ceil(steps)
         # print(f"n_rounds: {n_rounds}")
         reward_per_round = accumulated_reward / n_rounds
         episode.custom_metrics["reward_per_round"] = reward_per_round
@@ -60,7 +60,7 @@ class AsyncActionCallbacks(DefaultCallbacks):
         # Normally, RLlib would aggregate any custom metric into a mean, max and min
         # of the given metric.
         # print(result["custom_metrics"])
-        num_episodes = result["episodes_this_iter"]
+        num_episodes = result['sampler_results']["episodes_this_iter"]
         reward_per_round = result['sampler_results']["hist_stats"]["reward_per_round"][-num_episodes:]
         # print(f"reward_per_round: {reward_per_round}")
         std = np.std(reward_per_round)
