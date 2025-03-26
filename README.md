@@ -14,7 +14,12 @@ Inference code of the AutoBS framework from our paper "AutoBS: Autonomous Base S
 ## Citation
 
 ```
-
+@article{lee2025autobs,
+    title={AutoBS: Autonomous Base Station Deployment Framework with Reinforcement Learning and Digital Twin Network}, 
+    author={Ju-Hyung Lee and Andreas F. Molisch},
+    year={2025},
+    journal={arXiv preprint arXiv:2502.19647 [cs.IT]},
+}
 ```
 
 
