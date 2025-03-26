@@ -1,4 +1,4 @@
-# AutoBS - Inference
+# AutoBS: Autonomous Base Station Deployment Framework with Reinforcement Learning and Digital Twin Network
 
 Inference code of the AutoBS framework from our paper "AutoBS: Autonomous Base Station Deployment Framework with Reinforcement Learning and Digital Twin Network".
 <div>
